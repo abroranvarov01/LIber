@@ -1,0 +1,15 @@
+.item {
+  width: 190px;
+  text-align: center;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--text);
+}
+.img_box {
+  width: 190px;
+  background-image: url("path_to_image");
+}

@@ -1,0 +1,67 @@
+.select_box {
+  border-radius: 14px;
+  background-color: var(--primary-soft);
+  padding: 9px 16px;
+  width: 105px;
+}
+.wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.select_text {
+  text-align: center;
+  position: relative;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary);
+  &::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/select_sel.svg);
+    right: 10%;
+    top: 50%;
+    transform: translate(20%, -40%);
+  }
+  &::before {
+    content: "";
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/flag.svg);
+    background-position: center;
+    left: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+}
+.btn {
+  width: 151px;
+  border-radius: 14px;
+  padding: 7px 24px;
+  background-color: var(--primary);
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  color: var(--white);
+  text-align: end;
+  &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../../assets//sign_logo.svg);
+    background-position: center;
+    left: 20%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+  }
+}

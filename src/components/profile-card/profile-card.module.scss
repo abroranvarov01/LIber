@@ -1,0 +1,33 @@
+.card {
+  padding: 24px;
+  display: flex;
+  gap: 33px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  background-color: var(--white);
+  margin-bottom: 60px;
+}
+.text_balance {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--dark-gray);
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133%;
+  color: #11142d;
+  margin-bottom: 10px;
+}

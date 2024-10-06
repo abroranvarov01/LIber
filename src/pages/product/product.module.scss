@@ -1,0 +1,211 @@
+.product_block {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  color: #11142d;
+}
+.subtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--primary);
+}
+.btn_wrap {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.mid_box {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: -13%;
+}
+.raiting {
+  position: relative;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+  color: var(--text);
+  padding-left: 172px;
+  &::before {
+    content: "";
+    width: 152px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../assets/icon-img/stars.svg);
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+  }
+}
+.top {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 966px;
+  margin-bottom: 16px;
+}
+.img_lk {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../assets/btn/book.svg);
+}
+.img_lk2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../assets/btn/listen_btn.svg);
+}
+.comments {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  color: #11142d;
+  position: relative;
+  padding-left: 36px;
+  &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 50%;
+    left: -12px;
+    transform: translate(0%, -50%);
+    background-image: url(../../assets/icon-img/mesage.svg);
+  }
+}
+.img {
+  width: 300px;
+  height: 422px;
+}
+.text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #11142d;
+  margin-bottom: 16px;
+}
+.item {
+  width: 966px;
+}
+.chat_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #aaa;
+}
+.chatr_info {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #11142d;
+}
+.char {
+  display: flex;
+  align-items: center;
+  gap: 69px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid transparent; /* Устанавливаем прозрачную нижнюю границу */
+  border-image: url("../../assets/dots.svg") 30 round; /* Используем изображение с точками */
+  border-image-slice: 100; /* Устанавливаем slice для корректного отображения */
+}
+.buy_box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 25px;
+}
+.buy {
+  border-radius: 14px;
+  padding: 7px 8px;
+  width: 258px;
+  background-color: var(--primary);
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  color: var(--white);
+  &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../assets/btn/car.svg);
+    top: 50%;
+    left: 0%;
+    transform: translate(25%, -50%);
+  }
+}
+.liten_buy {
+  border: 1px solid var(--primary);
+  border-radius: 14px;
+  padding: 7px 8px;
+  width: 278px;
+  background-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text);
+  position: relative;
+  &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../assets/btn/listening_2.svg);
+    top: 50%;
+    left: 0%;
+    transform: translate(25%, -50%);
+  }
+}
+.online_buy {
+  position: relative;
+  border: 1px solid var(--primary);
+  border-radius: 14px;
+  padding: 7px 8px;
+  width: 272px;
+  background-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text);
+  &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../assets/btn/book2.svg);
+    top: 50%;
+    left: 0%;
+    transform: translate(25%, -50%);
+  }
+}

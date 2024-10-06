@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header_setions {
+  box-shadow: 0 29px 39px 0 rgba(0, 0, 0, 0.01);
+  background-color: var(--white);
+  padding: 9px 0 9px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.item_text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary);
+}

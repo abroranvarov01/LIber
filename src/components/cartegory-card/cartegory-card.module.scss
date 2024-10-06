@@ -1,0 +1,17 @@
+.text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--white);
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 166px;
+}
+.item {
+  border-radius: 14px;
+  position: relative;
+  width: 200px;
+}

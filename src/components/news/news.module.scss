@@ -1,0 +1,16 @@
+.news {
+  padding-bottom: 64px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  margin-bottom: 32px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+  color: var(--text);
+}

@@ -1,0 +1,16 @@
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.Category {
+  padding-bottom: 64px;
+}

@@ -1,0 +1,45 @@
+.FooterAddress {
+  background-color: var(--gray-on-dark);
+  padding-top: 12px;
+  padding-bottom: 34px;
+}
+.wrap {
+  display: flex;
+  gap: 137px;
+}
+.list li:nth-child(1) {
+  margin-bottom: 12px;
+}
+.mes_list {
+  display: flex;
+  gap: 24px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 114%;
+  color: var(--white);
+}
+.link {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--white);
+}
+.link_wrap {
+  margin-top: 11px;
+  display: flex;
+  gap: 23px;
+}
+.main_list {
+  display: flex;
+  gap: 131px;
+}
+.pay_list {
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
